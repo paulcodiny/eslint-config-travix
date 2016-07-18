@@ -59,11 +59,12 @@ module.exports = {
 
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': [2, {
-      ignoreRefs: true,
-      allowArrowFunctions: true,
-      allowBind: false,
-    }],
+    // 'react/jsx-no-bind': [2, {
+    //   ignoreRefs: true,
+    //   allowArrowFunctions: true,
+    //   allowBind: false,
+    // }],
+    'react/jsx-no-bind': [1, { allowArrowFunctions: true }],
 
     // Prevent duplicate props in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
@@ -96,10 +97,11 @@ module.exports = {
 
     // Enforce props alphabetical sorting
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-    'react/jsx-sort-props': [0, {
-      ignoreCase: false,
-      callbacksLast: false,
-    }],
+    // 'react/jsx-sort-props': [0, {
+    //   ignoreCase: false,
+    //   callbacksLast: false,
+    // }],
+    'react/jsx-sort-props': 2,
 
     // Prevent React to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
@@ -115,7 +117,8 @@ module.exports = {
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': [1, { react: '0.14.0' }],
+    // 'react/no-deprecated': [1, { react: '0.14.0' }],
+    'react/no-deprecated': 0,
 
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
@@ -135,7 +138,8 @@ module.exports = {
 
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': [2, { ignoreStateless: true }],
+    // 'react/no-multi-comp': [2, { ignoreStateless: true }],
+    'react/no-multi-comp': 0,
 
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
@@ -151,11 +155,13 @@ module.exports = {
 
     // Require ES6 class declarations over React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-    'react/prefer-es6-class': [2, 'always'],
+    // 'react/prefer-es6-class': [2, 'always'],
+    'react/prefer-es6-class': 0,
 
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': 2,
+    // 'react/prefer-stateless-function': 2,
+    'react/prefer-stateless-function': 0,
 
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
@@ -179,21 +185,23 @@ module.exports = {
 
     // Enforce spaces before the closing bracket of self-closing JSX elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': [2, 'always'],
+    // 'react/jsx-space-before-closing': [2, 'always'],
+    'react/jsx-space-before-closing': 0,
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-    'react/sort-comp': [2, {
-      order: [
-        'static-methods',
-        'lifecycle',
-        '/^on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'everything-else',
-        '/^render.+$/',
-        'render'
-      ],
-    }],
+    // 'react/sort-comp': [2, {
+    //   order: [
+    //     'static-methods',
+    //     'lifecycle',
+    //     '/^on.+$/',
+    //     '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
+    //     'everything-else',
+    //     '/^render.+$/',
+    //     'render'
+    //   ],
+    // }],
+    'react/sort-comp': 0,
 
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md

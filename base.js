@@ -12,7 +12,5 @@ module.exports = {
     ecmaVersion: 7,
     sourceType: 'module',
   },
-  rules: {
-    strict: 2,
-  }
+  rules: {}
 };

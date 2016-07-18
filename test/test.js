@@ -19,10 +19,9 @@ test('main', (t) => {
     t.true(isPlainObj(conf.env));
     t.true(isPlainObj(conf.rules));
 
-    const errors = runEslint('\'use strict\';\nconsole.log("unicorn")\n', conf);
+    const errors = runEslint('\'use strict\';\nconsole.log("travix international")\n', conf);
 
-    t.is(errors[0].ruleId, 'strict');
-    t.is(errors[1].ruleId, 'no-console');
-    t.is(errors[2].ruleId, 'quotes');
-    t.is(errors[3].ruleId, 'semi');
+    t.is(errors[0].ruleId, 'no-console');
+    t.is(errors[1].ruleId, 'quotes');
+    t.is(errors[2].ruleId, 'semi');
 });
