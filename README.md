@@ -1,4 +1,6 @@
-# eslint-config-travix [![Build Status](https://travis-ci.org/Travix-International/eslint-config-travix.svg?branch=master)](https://travis-ci.org/Travix-International/eslint-config-travix)
+# eslint-config-travix
+
+[![Build Status](https://img.shields.io/travis/Travix-International/eslint-config-travix/master.svg)](http://travis-ci.org/Travix-International/eslint-config-travix) [![npm](https://img.shields.io/npm/v/eslint-config-travix.svg)](https://www.npmjs.com/package/eslint-config-travix)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [Travix International](https://travix.com)
 
@@ -36,7 +38,7 @@ Add some ESLint config to your `package.json`:
 
 Or to `.eslintrc`:
 
-```json
+```js
 {
   "extends": "travix" // same as "travix/base"
 }
@@ -81,6 +83,16 @@ In some cases, you may also be required to pass your custom `parser` in `.eslint
   "extends": "travix"
 }
 ```
+
+## Releasing
+
+To publish a new version on npm, run:
+
+```
+$ make release VERSION=patch
+```
+
+Possible `VERSION` values include: `patch`, `minor`, `major`.
 
 ## License
 
