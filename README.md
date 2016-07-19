@@ -58,10 +58,10 @@ And [`travix/react`](react.js) if you want React application to be linted:
 
 ```json
 {
-    "extends": [
-      "travix/base",
-      "travix/react"
-    ]
+  "extends": [
+    "travix/base",
+    "travix/react"
+  ]
 }
 ```
 
@@ -71,13 +71,13 @@ You can combine multiple configs together:
 
 ```json
 {
-    "extends": [
-        "travix/rules/best-practices",
-        "travix/rules/es6",
-        "travix/rules/node",
+  "extends": [
+    "travix/rules/best-practices",
+    "travix/rules/es6",
+    "travix/rules/node",
 
-        "travix/react"
-    ]
+    "travix/react"
+  ]
 }
 ```
 
