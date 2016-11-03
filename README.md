@@ -11,24 +11,17 @@
 $ npm install --save-dev eslint eslint-config-travix
 ```
 
-For ES6 you'll also need Babel's ESLint [parser](https://github.com/babel/babel-eslint) and [plugin](https://github.com/babel/eslint-plugin-babel):
+For ES6 you'll also need Babel's [Core](https://www.npmjs.com/package/babel-core), ESLint [parser](https://github.com/babel/babel-eslint)
+and [plugin](https://github.com/babel/eslint-plugin-babel):
 
 ```
-$ npm install --save-dev babel-eslint eslint-plugin-babel eslint-plugin-import
+$ npm install --save-dev babel-core babel-eslint eslint-plugin-babel eslint-plugin-import
 ```
 
 For `react`, you will also need `eslint-plugin-react`:
 
 ```
 $ npm install --save-dev eslint-plugin-react
-```
-
-### Note for npm v2.x
-
-If you are still using npm v2.x, then just installing the package would bring in all other peer dependencies for you automatically:
-
-```js
-$ npm install --save eslint-config-travix
 ```
 
 ## Usage
