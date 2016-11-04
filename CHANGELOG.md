@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/Travix-International/eslint-config-travix/tree/HEAD)
+
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Updates the eslint-config-airbnb-base version to 9.0.0 [\#8](https://github.com/Travix-International/eslint-config-travix/pull/8) ([mAiNiNfEcTiOn](https://github.com/mAiNiNfEcTiOn))
+
 ## [v2.1.0](https://github.com/Travix-International/eslint-config-travix/tree/v2.1.0) (2016-11-04)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.0.0...v2.1.0)
 
