@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/Travix-International/eslint-config-travix/tree/HEAD)
-
-[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.1.0...HEAD)
+## [v2.2.0](https://github.com/Travix-International/eslint-config-travix/tree/v2.2.0) (2016-11-04)
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.1.0...v2.2.0)
 
 **Merged pull requests:**
 
