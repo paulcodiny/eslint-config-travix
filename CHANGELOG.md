@@ -1,5 +1,12 @@
 # Change Log
 
+## [v2.3.1](https://github.com/Travix-International/eslint-config-travix/tree/v2.3.1) (2016-11-22)
+[Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.3.0...v2.3.1)
+
+**Merged pull requests:**
+
+- Update eslint-plugin-babel to the latest version 🚀 [\#9](https://github.com/Travix-International/eslint-config-travix/pull/9) ([greenkeeper[bot]](https://github.com/integration/greenkeeper))
+
 ## [v2.3.0](https://github.com/Travix-International/eslint-config-travix/tree/v2.3.0) (2016-11-15)
 [Full Changelog](https://github.com/Travix-International/eslint-config-travix/compare/v2.2.0...v2.3.0)
 
